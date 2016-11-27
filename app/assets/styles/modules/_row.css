@@ -36,7 +36,6 @@
 
 
 	&__medium-6 {
-		
 
 		@mixin atLarge {
 			float: left;
