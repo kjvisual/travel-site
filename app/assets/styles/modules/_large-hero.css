@@ -9,11 +9,25 @@
 
 &__text-content {
 	position: absolute;
+    padding-top: 88px;
 	top: 50%;
 	transform: translateY(-50%);
 	left: 0;
 	width: 100%;
 	text-align: center;
+    
+    @mixin atMedium {
+        padding-top: 60px;
+    }
+    
+        &--hide {
+        opacity: 0;
+        transition: opacity .3s ease-out;
+        
+        @mixin atMedium {
+            opacity: 1;
+        }
+    }
 }
 
 
