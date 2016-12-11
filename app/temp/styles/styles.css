@@ -1389,7 +1389,7 @@ Instead edit gulp/templates/sprite */
   text-decoration: none;
   font-weight: 300;
   display: block;
-  padding: 5px 8px;
+  padding: 10px 8px;
   font-size: .7rem;
   background-color: rgba(47,85,114, .6);
 }
