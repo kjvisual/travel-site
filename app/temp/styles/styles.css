@@ -1152,6 +1152,7 @@ Instead edit gulp/templates/sprite */
     color: #FFF;
     padding: .5rem;
     text-align: center;
+    margin-bottom: 0;
 }
 
 .site-footer__text {
