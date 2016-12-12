@@ -686,9 +686,10 @@ a {
 
 @media (min-width: 1025px) {
 
-  .page-section--testimonials {
+  .page-section--testimonials.lazyloaded {
     background: url('/assets/images/testimonials-bg.jpg') top center no-repeat;
     background-size: cover;
+    height: 900px;
   }
 }
 
@@ -1027,11 +1028,12 @@ a {
 	margin-bottom: 98px;
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 640px) {
 
   .testimonial {
     margin-bottom: 0;
     padding: 0 1.8125rem 1px 1.8125rem;
+    height: 570px;
   }
 }
 
@@ -1160,7 +1162,10 @@ Instead edit gulp/templates/sprite */
     color: #FFF;
     padding: .5rem;
     text-align: center;
-    margin-bottom: 0;
+
+
+
+    width: 100%;
 }
 
 .site-footer__text {
@@ -1173,7 +1178,6 @@ Instead edit gulp/templates/sprite */
 
   .site-footer__text {
     display: inline;
-    margin-bottom: 0;
     margin-right: 1.4rem;
   }
 }
@@ -1537,4 +1541,10 @@ Instead edit gulp/templates/sprite */
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+}
+
+.bottom-block {
+
+
+
 }
