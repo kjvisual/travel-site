@@ -3,6 +3,9 @@
     color: #FFF;
     padding: .5rem;
     text-align: center;
+    margin-bottom: 0;
+
+
     
     &__text {
         display: block;
